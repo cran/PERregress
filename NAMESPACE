@@ -1,0 +1,7 @@
+export(descStat,back,brush,residualPlots,normPlot,AndersonDarling)
+
+
+
+
+
+

@@ -1,13 +1,13 @@
-\name{anscomb}
-\alias{anscomb}
+\name{Anscomb}
+\alias{Anscomb}
 \docType{data}
 \title{
-ANSCOMB dataset
+Anscomb dataset
 }
 \description{
 Four pairs of data points for illustration of regression fallacies. (x1,y1) (x2,y2) (x3,y3) (x4 y4)
 }
-\usage{data(anscomb)}
+\usage{data(Anscomb)}
 \format{
   A data frame with 11 observations on the following 8 variables.
   \describe{
@@ -25,6 +25,6 @@ Four pairs of data points for illustration of regression fallacies. (x1,y1) (x2,
 Anscombe,A., Graphs in Statistical Analysis, American Statistician (circa 1974)
 }
 \examples{
-data(anscomb)
+data(Anscomb)
 }
 \keyword{datasets}

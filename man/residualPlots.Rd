@@ -16,7 +16,7 @@ residualPlots(out, bigres = 3, bighat = 3, cutoff = 1)
   \item{cutoff}{cut-off for Cooks Distance values}
 }
 \details{
-yellow lines (if present) on leverage vs. std residuals plot indicate large residuals. Orange line (if present) delimits large leverage values.  Large red values (if present) indicate large Cooks Distance values. P-value for Anderson-Darling test of normality is indicated on normal probability plot.
+yellow lines (if present) on leverage vs. std residuals plot indicate large residuals. Green line (if present) delimits large leverage values.  Large red values (if present) indicate large Cooks Distance values. P-value for Anderson-Darling test of normality is indicated on normal probability plot.
 }
 \value{
    \item{large_res}{indices of observations with large std residuals, if any}

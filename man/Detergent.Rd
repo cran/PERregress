@@ -1,6 +1,5 @@
-\name{Detergent}
-\Rdversion{1.1}
-\alias{Detergent}
+\name{detergent}
+\alias{detergent}
 \docType{data}
 \title{
 DETERGENT dataset
@@ -16,11 +15,11 @@ The data are from the years 1989 to 1994, and resulted from a partnership
 between the Booth School and Dominick's Finer Foods on research into 
 shelf-management and store pricing. 
 }
-\usage{data(Detergent)}
+\usage{data(detergent)}
 \format{
   A data frame with 14745 observations on the following 10 variables.
   \describe{
-    \item{\code{store}}{Store id number}
+    \item{\code{store}}{Store id number - stores as a factor}
     \item{\code{week}}{Week}
     \item{\code{acv}}{ACV (all commodity volume), in $1,000}
     \item{\code{promoflag}}{= 1 if any product in the category was on promotion}
@@ -37,6 +36,6 @@ The Kilts Center for Marketing at the Booth School of Business:
 \url{http://research.chicagobooth.edu/marketing/databases/dominicks/index.aspx}
 }
 \examples{
-data(Detergent)
+data(detergent)
 }
 \keyword{datasets}

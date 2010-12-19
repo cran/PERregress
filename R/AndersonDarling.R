@@ -12,6 +12,7 @@ AndersonDarling= function (x)
     p <- pnorm((x - mean(x))/sd(x))
     h <- (2 * seq(1:n) - 1) * (log(p) + log(1 - rev(p)))
     A <- -n - mean(h)
+	if(A > 10) A=10  # protect overflow and underflow on pval
     AA <- (1 + 0.75/n + 2.25/n^2) * A
     if (AA < 0.2) {
         pval <- 1 - exp(-13.436 + 101.14 * AA - 223.73 * AA^2)

@@ -1,13 +1,13 @@
-\name{conret}
-\alias{conret}
+\name{countryret}
+\alias{countryret}
 \docType{data}
 \title{
-CONRET dataset
+COUNTRYRET dataset
 }
 \description{
-Time series of returns on stock price indices for several countries.
+Time series of monthly returns on stock price indices for several countries.
 }
-\usage{data(conret)}
+\usage{data(countryret)}
 \format{
   A data frame with 107 observations on the following 23 variables.
   \describe{
@@ -17,11 +17,11 @@ Time series of returns on stock price indices for several countries.
     \item{\code{belgium}}{a numeric vector}
     \item{\code{canada}}{a numeric vector}
     \item{\code{denmark}}{a numeric vector}
-    \item{\code{finalnd}}{a numeric vector}
+    \item{\code{finland}}{a numeric vector}
     \item{\code{france}}{a numeric vector}
     \item{\code{germany}}{a numeric vector}
-    \item{\code{honkong}}{a numeric vector}
-    \item{\code{irleland}}{a numeric vector}
+    \item{\code{hongkong}}{a numeric vector}
+    \item{\code{ireland}}{a numeric vector}
     \item{\code{italy}}{a numeric vector}
     \item{\code{japan}}{a numeric vector}
     \item{\code{malaysia}}{a numeric vector}
@@ -38,6 +38,6 @@ Time series of returns on stock price indices for several countries.
 }
 
 \examples{
-data(conret)
+data(countryret)
 }
 \keyword{datasets}

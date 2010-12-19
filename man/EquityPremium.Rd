@@ -2,7 +2,7 @@
 \alias{EquityPremium}
 \docType{data}
 \title{
-EQUITYPREMIUM dataset
+EQUITY PREMIUM dataset
 }
 \description{
 Data used to test several candidate predictors of equity premimum.
@@ -15,7 +15,7 @@ interest rate.
   A data frame with 1656 observations on the following 18 variables.
   \describe{
     \item{\code{yyyymm}}{The date}
-    \item{\code{Index}}{The price level of S&P500.}
+    \item{\code{SP500}}{The price level of S&P500.}
     \item{\code{D12}}{Twelve-month moving sums of dividends paid on the S&P 
     500 index.}
     \item{\code{E12}}{Twelve-monthmoving sums of earnings on the S&P 500 index}

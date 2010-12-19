@@ -23,9 +23,9 @@ plot(lm.influence(out)$hat,rstandard(out),pch=20,col="blue",xlab="Leverage",ylab
 #
 N=length(out$residuals)
 kp1=length(out$coefficients)
-if(max(rstandard(out)) > bigres) abline(h=bigres,lty=2,lwd=2,col="orange")
-if(min(rstandard(out)) < -bigres) abline(h=-bigres,lty=2,lwd=2,col="orange")
-if(max(lm.influence(out)$hat)>bighat*(kp1/N)) abline(v=bighat*(kp1/N),lty=2,lwd=2,col="orange")
+if(max(rstandard(out)) > bigres) abline(h=bigres,lty=2,lwd=2,col="yellow")
+if(min(rstandard(out)) < -bigres) abline(h=-bigres,lty=2,lwd=2,col="yellow")
+if(max(lm.influence(out)$hat)>bighat*(kp1/N)) abline(v=bighat*(kp1/N),lty=2,lwd=2,col="green")
 #
 # paint points with large Cooks distance
 #

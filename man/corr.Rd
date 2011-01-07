@@ -24,5 +24,5 @@ Peter E. Rossi, Anderson School UCLA, \email{perossichi@gmail.com}
 \examples{
 corr(cbind(rnorm(100),rnorm(100)))
 }
-\keyword{ statistics }
-\keyword{ univariate }
+\keyword{statistics}
+\keyword{univariate}

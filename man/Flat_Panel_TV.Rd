@@ -2,7 +2,7 @@
 \alias{Flat_Panel_TV}
 \docType{data}
 \title{
-FLAT_PANEL_TV dataset
+Flat_Panel_TV dataset
 }
 \description{
 This dataset contains information on flat panel TV (LED and Plasma) collected from Amazon on 

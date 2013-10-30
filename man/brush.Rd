@@ -7,7 +7,9 @@ Static Brushing
 Illustrate Computation of a Mulitple Regression coefficient via interlinked graphs.  A static version of brushing.
 }
 \usage{
-brush(x1, x2, y, window = 0.3 * (quantile(x2, probs = c(0.75)) - quantile(x2, probs = c(0.25))), addreg = FALSE)
+brush(x1, x2, y, 
+      window = 0.3*(quantile(x2, probs = c(0.75)) - quantile(x2,probs = c(0.25))),
+      addreg = FALSE)
 }
 \arguments{
   \item{x1}{indep variable, must be a vector}

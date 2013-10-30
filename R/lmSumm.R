@@ -22,7 +22,7 @@ HACVar=function(qrX,res,L){
 	k=ncol(qrX$qr)
 	R=qr.R(qrX)
 	Q=qr.Q(qrX)
-	X=Q%*%R
+	if(L!=0)X=Q%*%R
 	n=nrow(X)
 	RI=backsolve(R,diag(k))
 	lambda=res**2
@@ -54,6 +54,7 @@ pval=function(x){1-pf(x[1],df1=x[2],df2=x[3])}
 
 pandterm = function(message) {
         stop(message, call. = FALSE) }
+
 if (missing(lmfit)) pandterm("Requires output from the lm command as in lmSummary(lm(y~x))")
 if (attributes(lmfit)$class != "lm") pandterm("input not from lm command")
 cat("Multiple Regression Analysis:",fill=TRUE)
@@ -107,6 +108,7 @@ cat("Multiple R-squared: ",round(rsq,3)," Adjusted R-squared: ",round(adjrsq,3),
 if(!HAC) 
    {cat("Overall F stat: ",round(fstat[1],2)," on ",fstat[2]," and ",fstat[3]," DF,"," pvalue= ",round(pval(fstat),3),
          sep="",fill=TRUE)}
-if(HAC & (n-k) < (50+20*L))
+if(HAC & (n-k) < (50+10*L))
    {cat("Warning: Sample Size of",n,"too small for accurate use of HAC",fill=TRUE)}
+list(lmfit=lmfit,coef.table=output,HAC=HAC,L=L)
 }

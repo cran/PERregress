@@ -15,7 +15,7 @@ descStat(df, CONF = 0.95, rnd = 3)
   \item{rnd}{decimal digits to display}
 }
 \details{
-use \code{desc.Stat(data.frame(x))} to compute descriptive statistics for a vector or matrix of variables
+use \code{descStat(data.frame(x))} to compute descriptive statistics for a vector or matrix of variables
 }
 \author{
 Peter E. Rossi, Anderson School UCLA, \email{perossichi@gmail.com}

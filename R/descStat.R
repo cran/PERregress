@@ -36,5 +36,5 @@ colnames(mat)=c("Mean","Median","SD","IQR","SE Mean",
                 paste(lab,"-L",sep=""),paste(lab,"-U",sep=""),"NMissing")
 print(mat)
 cat("Number of Observations = ",N,fill=TRUE)
-
+invisible(mat)
 }

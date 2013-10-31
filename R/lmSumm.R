@@ -110,5 +110,5 @@ if(!HAC)
          sep="",fill=TRUE)}
 if(HAC & (n-k) < (50+10*L))
    {cat("Warning: Sample Size of",n,"too small for accurate use of HAC",fill=TRUE)}
-list(lmfit=lmfit,coef.table=output,HAC=HAC,L=L)
+invisible(list(lmfit=lmfit,coef.table=output,HAC=HAC,L=L))
 }

@@ -1,4 +1,4 @@
-3a6a8fa2b7c9194cc9ea013231487987 *DESCRIPTION
+128d4446c8a07b313254bf9656c1ee32 *DESCRIPTION
 015c5e8abd5fa087d01fd7c5d4c52413 *NAMESPACE
 0acbe733ae74d83952df2020d3f4d5ee *R/AndersonDarling.R
 8774c16b6f58635da7505c17385e819a *R/back.R
@@ -42,7 +42,7 @@ db6892fbd46c178a932cfed661bf57af *data/mammals.rda
 ae98ca8936e125999c12cc41a1443e45 *data/persistence.rda
 8caa5daa50554502e90619fe4cd21280 *data/rat.rda
 527ec8adae2fff54824e356799945139 *data/return_pd.rda
-4e1238af6c0ffc03bb58c9a3f661ef6f *data/riskFactors.rda
+3a4526b6b5a1c718e1b9b6b6896a15c2 *data/riskFactors.rda
 749dcaf5a27e6a6d894869b85605347c *data/shock.rda
 5f2575a5d56f41b6cc2cc5d0531fa14d *data/slots.rda
 cf974905066dd964ec73543258bd3e26 *data/stocks.rda
@@ -92,7 +92,7 @@ d4eafda1a9027fedf5f55aa888e73d0d *man/outliers.Rd
 fcd25f4c6b4ab31605f03879272413eb *man/rat.Rd
 1ad05082a641329698adc0523a69207d *man/residualPlots.Rd
 108157828e1439f7bf628258a18d69a2 *man/return_pd.Rd
-020f9067ce28850873ba89866438c338 *man/riskFactors.Rd
+d1b869f32691eff391d6ae6c93b6ca1c *man/riskFactors.Rd
 8778f23ed4ff3dc4be308911e767b121 *man/shock.Rd
 356834d37425f71c08e59fb7d19c4afe *man/slots.Rd
 0eb81f82defec63727b74099d20c8465 *man/stocks.Rd
